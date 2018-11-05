@@ -3,7 +3,7 @@
     <footer class="footer">
       <div class="container">
         <span class="text-muted">Frmaework MVC Con PHP</span>
-        <small class="text-muted">Harold Velez Castaño.</small> 
+        <i class="text-muted">Harold Velez Castaño.</i> 
       </div>
     </footer>
     <!-- Bootstrap core JavaScript

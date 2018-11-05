@@ -1,6 +1,6 @@
 <?php
 
-//Ruta de la aplicacion!
+//Ruta base de la aplicacion!
 define ('ROUTE_APP', dirname(dirname(__FILE__)));
 //Ruta URL ejemplo: http://localhost/mvc_php/
 define('ROUTE_URL', 'http://localhost/mvc_php');

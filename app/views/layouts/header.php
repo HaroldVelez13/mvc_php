@@ -1,4 +1,4 @@
-
+<!-- Begin page header -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -26,7 +26,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="<?php ROUTE_URL ?>">Inicio</a>
+              <a class="nav-link" href="<?php echo ROUTE_URL; ?>/users">Inicio</a>
             </li>            
           </ul>
         </div>

@@ -70,13 +70,13 @@ class DB_Base{
 		return $this->stmt->execute();
 	}
 
-	//Obtenemos los registros de la consulta dad
+	//Obtenemos los registros de la consulta dada
 	public function registers(){
 		$this->execute();
 		return $this->stmt->fetchAll(PDO::FETCH_OBJ);
 	}
 
-	//Obtenemos el registro de la consulta dad
+	//Obtenemos el registro de la consulta dada
 	public function register(){
 		$this->execute();
 		return $this->stmt->fetch(PDO::FETCH_OBJ);
